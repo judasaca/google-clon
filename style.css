@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  font: 13px/27px Roboto, Arial, sans-serif;
+  color: #5f6368;
+  background: white;
+}
+header {
+  margin: 0px;
+  border: none;
+  display: flex;
+  justify-content: right;
+  padding: 6px;
+}
+.contenido-header {
+  display: flex;
+  justify-content: right;
+  padding-right: 4px;
+}
+.alineados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outside-links {
+  padding-right: 15px;
+}
+.outside-links div {
+  padding-left: 15px;
+}
+.outside-links a {
+  text-decoration: none;
+  color: currentColor;
+}
+.outside-links a:hover {
+  text-decoration: underline;
+}
+.applications-icon {
+  padding: 8px;
+  height: 34px;
+  width: 34px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.applications-icon:hover {
+  background-color: rgb(204, 204, 204);
+}
+.applications-icon svg {
+  fill: #5f6368;
+  height: 25px;
+  width: 25px;
+}
+.applications-icon a {
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+.perfil-image button {
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 5px;
+  border: none 0.64px;
+  padding: 9px 23px 9px 23px;
+  margin: 0 8px 0 8px;
+}
