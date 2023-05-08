@@ -1,3 +1,3 @@
 # Google clone
 
-This repository is a project from Protalento Full Stack Bootcamp.
+This repository is a project for Protalento Full Stack Bootcamp.

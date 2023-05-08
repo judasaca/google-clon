@@ -64,3 +64,15 @@ header {
   padding: 9px 23px 9px 23px;
   margin: 0 8px 0 8px;
 }
+
+main section {
+  border: solid #1a73e8;
+  border-radius: 1px;
+}
+#logo {
+  width: 30%;
+}
+.google-logo {
+  display: flex;
+  justify-content: center;
+}
