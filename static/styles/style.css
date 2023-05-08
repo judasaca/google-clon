@@ -71,7 +71,7 @@ header {
 .google-logo {
   display: flex;
   justify-content: center;
-  height: 150px;
+  height: 200px;
 }
 .google-logo div {
   display: flex;
@@ -137,4 +137,37 @@ header {
 }
 .search-and-lucky button:hover {
   box-shadow: 0px 0px 5px 0px #b8b8b8;
+}
+footer {
+  background-color: #ebebeb;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  overflow: hidden;
+  color: #70757a;
+}
+.pais {
+  padding: 15px 30px 15px 30px;
+  border-bottom: solid 1px #dadce0;
+  font-size: 14px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links a {
+  text-decoration: none;
+  color: currentColor;
+  padding: 15px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.left {
+  display: inline-flex;
+}
+.right {
+  display: inline-flex;
 }
