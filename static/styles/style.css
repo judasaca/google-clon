@@ -83,7 +83,7 @@ header {
   justify-content: center;
 }
 .search-bar div {
-  width: 70%;
+  width: 480px;
   border: solid #9aa0a6 1px;
   border-radius: 30px;
   display: flex;
@@ -119,4 +119,22 @@ header {
 }
 .middle-section {
   padding: 20px;
+}
+.search-and-lucky {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+}
+.search-and-lucky button {
+  padding: 0px 16px 0px 16px;
+  border: 9px;
+  margin: 11px 4px 11px 4px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  background-color: #f8f9fa;
+  height: 34px;
+  border-radius: 5px;
+}
+.search-and-lucky button:hover {
+  box-shadow: 0px 0px 5px 0px #b8b8b8;
 }
